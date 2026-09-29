@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1 - Cek instalasi (cepat)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/cek_instalasi.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "2 - Ablasi variabilitas (~4 mnt)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_pareto.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "3 - Matriks eksperimen (~5 mnt)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_experiments.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "4 - Buat gambar",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/make_figures.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
